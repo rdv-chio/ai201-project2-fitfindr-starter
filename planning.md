@@ -148,7 +148,7 @@ flowchart TD
     Check -- Yes --> Err[Set session error]
     Err --> Return[Return Session]
     
-    Check -- No --> Set1[session: selected_item = results[0]]
+    Check -- No --> Set1[session: selected_item = "results[0]"]
     Set1 --> Suggest[suggest_outfit]
     
     Suggest --> Set2[session: outfit_suggestion]
