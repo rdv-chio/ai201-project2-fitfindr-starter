@@ -156,6 +156,7 @@ flowchart TD
     
     FitCard --> Set3[Save fit card to session]
     Set3 --> Return
+```
 
 ---
 
